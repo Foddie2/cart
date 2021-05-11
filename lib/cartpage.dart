@@ -52,7 +52,8 @@ class _CartPageState extends State<CartPage> {
                                   " = " +
                                   (model.cart[index].qty *
                                           model.cart[index].price)
-                                      .toString()),
+                                      .toString()
+                              ),
                               trailing: Row(
                                   mainAxisSize: MainAxisSize.min,
                                   children: [

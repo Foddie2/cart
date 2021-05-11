@@ -64,7 +64,8 @@ class HomePage extends StatelessWidget {
               Text("\$"+_products[index].price.toString()),
               OutlineButton(
                     child: Text("Add"),
-                    onPressed: () => model.addProduct(_products[index]))
+                    onPressed: () => model.addProduct(_products[index])
+              )
             ])); 
           });
         },
